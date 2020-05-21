@@ -921,9 +921,6 @@ html[dir=ltr] .mobile-select-cont:after {
   transform: scale(1.1);
 }
 
-.products-sec .owl-carousel .owl-dots {
-  margin-top: -30px;
-}
 @media (max-width: 992px) {
   .products-sec {
     margin-top: 40px;
@@ -972,6 +969,11 @@ html[dir=ltr] .mobile-select-cont:after {
 .product .product-abs:hover {
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
   z-index: 99;
+}
+@media (max-width: 992px) {
+  .product .product-abs:hover {
+    box-shadow: none;
+  }
 }
 .product .product-abs:hover .mo-view {
   transform: translate(-50%, -50%);
@@ -1125,6 +1127,12 @@ html[dir=ltr] .mobile-select-cont:after {
   transition: all 0.3s ease-in-out;
   overflow: hidden;
 }
+@media (max-width: 767px) {
+  .product .mo-colors {
+    margin-top: 15px;
+    height: auto;
+  }
+}
 .product .custom-radio {
   margin: 0 3.5px;
   position: relative;
@@ -1154,6 +1162,11 @@ html[dir=ltr] .mobile-select-cont:after {
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 767px) {
+  .product .mo-add-to {
+    height: 32px;
+  }
 }
 .product .mo-add-to span {
   font-size: 16px;

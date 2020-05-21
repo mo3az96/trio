@@ -93,6 +93,9 @@ $(document).ready(function () {
         $('.mega-menu').slideToggle(300);
         $('.overlay').fadeToggle("300");
         // $("body").toggleClass("overflow");
+        if ($(window).width() <= 767) {
+            $('.overlay').fadeOut("300");
+        }
     });
     $('.overlay').click(function () {
         $('.megamenu-link').removeClass("link-active");
