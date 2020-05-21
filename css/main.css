@@ -1623,7 +1623,7 @@ html[dir=ltr] .drop-cont .drop-anchor img {
 }
 
 .logo {
-  width: 177px;
+  width: 185px;
   display: block;
 }
 @media (max-width: 992px) {
@@ -1648,7 +1648,7 @@ html[dir=ltr] .drop-cont .drop-anchor img {
 .mo-user-nav {
   display: flex;
   align-items: center;
-  width: 177px;
+  width: 185px;
   justify-content: flex-end;
 }
 @media (max-width: 992px) {
@@ -1818,9 +1818,21 @@ main::before {
   content: "";
   margin-top: 12px;
 }
+@media (max-width: 767px) {
+  .main-head {
+    font-size: 35px;
+  }
+}
 
 .main-subhead {
   font-size: 30px;
+}
+@media (max-width: 767px) {
+  .main-subhead {
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.875;
+  }
 }
 
 .sec-head {
