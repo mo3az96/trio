@@ -1501,6 +1501,15 @@ html[dir=ltr] .mo-seller i {
   position: relative;
   margin-right: 25px;
 }
+html[dir=ltr] .drop-cont {
+  margin: 0;
+  margin-left: 25px;
+}
+@media (max-width: 767px) {
+  html[dir=ltr] .drop-cont {
+    margin: 0;
+  }
+}
 @media (max-width: 767px) {
   .drop-cont {
     margin: 0;
@@ -1569,10 +1578,18 @@ html[dir=ltr] .drop-cont .top-anchor:after {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
+html[dir=ltr] .drop-cont .top-dropdown {
+  right: auto;
+  left: 0;
+}
 @media (max-width: 767px) {
   .drop-cont .top-dropdown {
     right: 50%;
     transform: translateX(50%);
+  }
+  html[dir=ltr] .drop-cont .top-dropdown {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 .drop-cont .drop-anchor {
@@ -1714,6 +1731,11 @@ html[dir=ltr] .user-anchor .mo-text::after {
 }
 .user-anchor.mo-log-icon {
   margin: 0;
+}
+@media (max-width: 992px) {
+  .user-anchor.mo-log-icon {
+    display: none;
+  }
 }
 .user-anchor.mo-menu-icon, .user-anchor.mo-search-icon {
   display: none;
