@@ -1192,8 +1192,16 @@ html[dir=ltr] .product .mo-add-to span {
   color: #fc6701;
 }
 @media (max-width: 992px) {
+  .megamenu-link.link-active {
+    color: #000;
+  }
+}
+@media (max-width: 992px) {
   .megamenu-link {
     width: 100%;
+  }
+  .megamenu-link:hover {
+    color: #fc6701;
   }
 }
 
