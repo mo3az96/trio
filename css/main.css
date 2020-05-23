@@ -338,7 +338,7 @@ html[dir=ltr] .newsletter-form {
   font-size: 14px;
   font-family: med;
   color: #fff;
-  background-color: #000;
+  background-color: #0f0d0e;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
@@ -373,7 +373,7 @@ html[dir=ltr] .newsletter-button {
 .mo-navbar {
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 @media (max-width: 1199px) {
   .mo-navbar {
@@ -1182,7 +1182,7 @@ html[dir=ltr] .product .mo-add-to span {
   margin-left: 0;
 }
 .product .mo-add-to:hover {
-  background-color: #000;
+  background-color: #0f0d0e;
 }
 .product .mo-add-to:hover span {
   transform: rotate(-15deg);
